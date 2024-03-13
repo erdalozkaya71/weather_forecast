@@ -5,7 +5,7 @@ function DisplayWeather(props) {
 console.log(props)
    const {data} = props
 
-   const iconurl = "https://openweathermap.org/img/wn/" + `${data.weather[0].icon}` + ".png";
+   const iconurl = `https://openweathermap.org/img/wn/${data.weather[0].icon}.png`;
   return (
     <div className='displayweather'>
         <div className='maincard'>
