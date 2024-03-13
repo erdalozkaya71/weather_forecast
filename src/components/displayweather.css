@@ -1,0 +1,93 @@
+
+
+
+.displayweather .maincard {
+    width: 500px;
+    margin-top: 20px;
+    padding: 50px;
+    border-radius: 20px;
+    position: relative;
+    background: rgb(245, 242, 242);
+    border: 1px solid black;
+}
+
+.displayweather .maincard .cardtitle {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 1.6rem;
+}
+
+.displayweather .maincard .cardsubtitle {
+    position: absolute;
+    left: 10px;
+    color: gray;
+    margin-top: -8px;
+}
+
+.displayweather h1 {
+    font-size: 5rem;
+    margin: -10px;
+    margin-left: -150px;
+}
+
+.displayweather .weather-icon {
+    width: 100px;
+    position: absolute;
+    top: 50px;
+}
+
+.displayweather .weather-main {
+    position: absolute;
+    top: 120px;
+    left: 310px;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.displayweather .weather-description {
+    position: absolute;
+    left: 20px;
+    top: 160px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.displayweather .weatherdetails {
+    display: flex;
+}
+
+.displayweather .section1,
+.displayweather .section2 {
+    margin-top: 20px; /* Adjust the margin as needed */
+    flex: 1;
+}
+
+.displayweather .section2 {
+    margin-left: 20px; /* Adjust the margin between section1 and section2 */
+}
+
+.displayweather .weekly-forecast {
+    margin-top: 20px;
+}
+
+.displayweather .weekly-forecast table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.displayweather .weekly-forecast table td,
+.displayweather .weekly-forecast table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.displayweather .weekly-forecast table th {
+    background-color: #f2f2f2;
+}
+
+.displayweather .weekly-forecast h4 {
+    margin: 0;
+}
